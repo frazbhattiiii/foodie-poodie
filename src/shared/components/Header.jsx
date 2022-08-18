@@ -110,6 +110,13 @@ function Header ( props ) {
             </div>
             {/*    For Mobile*/ }
             <div className='flex items-center justify-between md:hidden w-full h-full'>
+                <div className='relative flex items-center justify-center cursor-pointer'>
+                    <MdShoppingBasket className='text-textColor text-2xl'/>
+                    <div
+                        className=' absolute -top-1 -right-2 w-5 h-5 rounded-full bg-cartNumBg flex items-center justify-center'>
+                        <p className='text-xs text-white font-semibold'>0</p>
+                    </div>
+                </div>
                 <Link to={ '/' } className='flex items-center gap-2'>
                     <img src={ logo } alt='logo' className='w-10 object-cover'/>
                     <p className='text-xl font-bold text-headingColor'>Foodie Poodie</p>
