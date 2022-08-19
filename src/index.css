@@ -9,6 +9,7 @@
 html,body{
   /*it will show the animation smoothly*/
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family:"Poppins",sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
