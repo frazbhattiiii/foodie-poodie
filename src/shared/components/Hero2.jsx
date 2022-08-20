@@ -11,7 +11,7 @@ const Hero2 = () => {
                 className=" ml-auto h-420 w-full lg:w-auto lg:h-650"
                 alt="hero-bg"
             />
-            <div className="w-full lg:w-[41rem] h-full absolute top-0 lg:-left-13 flex items-center justify-center lg:px-32  py-4 gap-4 flex-wrap">
+            <div className="w-full  xl:w-[41rem] h-full absolute top-0 left-0 flex items-center justify-center xl:px-32  py-4 gap-4 flex-wrap">
                 {MenuData.map((item, index) => {
                     return <HeroCard key={ index } props={item} />;
                 })
