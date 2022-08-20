@@ -41,7 +41,7 @@ function Header ( props ) {
 
 
     return (
-        <div className='fixed z-50 w-screen p-3 px-8 md:p-6 md:px-16'>
+        <div className='fixed z-50 w-screen p-3 px-8 md:p-6 md:px-16 bg-primary'>
             {/*For Larger Screen*/ }
             <div className='hidden md:flex w-full h-full flex items-center justify-between'>
                 <Link to={ '/' } className='flex items-center gap-2'>

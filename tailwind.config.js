@@ -1,7 +1,5 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       width: {
@@ -40,7 +38,7 @@ module.exports = {
       },
       screens: {
         sm: "640px",
-        md: "820px",
+        md: "768px",
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
@@ -59,5 +57,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-}
+  // plugins: [require("tailwind-scrollbar")],
+};
