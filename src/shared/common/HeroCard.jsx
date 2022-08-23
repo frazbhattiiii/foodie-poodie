@@ -1,6 +1,5 @@
 import React    from 'react';
 function HeroCard ( {props} ) {
-    console.log(props);
     return (
         <>
             <div
