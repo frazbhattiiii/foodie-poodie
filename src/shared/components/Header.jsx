@@ -14,6 +14,7 @@ function Header ( props ) {
     const [ IsMenu , setIsMenu ] = useState ( false );
     const firebaseAuth = getAuth ( app );
     const provider = new GoogleAuthProvider ();
+    console.log(process.env.REACT_APP_FIREBASE_API_KEY);
 
     const login = async () => {
         if ( ! user ) {
