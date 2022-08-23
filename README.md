@@ -22,7 +22,7 @@ Once the item will be created the user can see it in it's menu with real time re
 ![Item Created](https://i.ibb.co/TR2v2V2/item-added-foodie-poodie.png)
 # `Menu`
 Menu with attractive UI and filtering based on user Selection
-![Menu](https://i.ibb.co/Kb2hrvC/foodie-poodie-menu.png)
+![Menu FP](https://i.ibb.co/Kb2hrvC/foodie-poodie-menu.png)
 
 # `Fruit Section`
 Fruit section with scroll on x-axis and also with hover animation and attractive UI
