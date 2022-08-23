@@ -1,7 +1,8 @@
-import React        from 'react';
-import { Hero }     from "./index";
-import FruitSection from "./FruitSection";
-import MenuSection  from "./MenuSection";
+import React         from 'react';
+import { Hero }      from "./index";
+import FruitSection  from "./FruitSection";
+import MenuSection   from "./MenuSection";
+import CartContainer from "./CartContainer";
 
 function HomeComponent ( props ) {
     return (
@@ -9,6 +10,7 @@ function HomeComponent ( props ) {
             <Hero/>
             <FruitSection/>
             <MenuSection/>
+            <CartContainer/>
         </div>
     );
 }
