@@ -136,7 +136,7 @@ function Header ( props ) {
                                 exit={{opacity:0, scale :0.6}}
                                 className='w-40 bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-12 right-0'>
                                 { user && user.email === 'bhattifraz94@gmail.com' && (
-                                    <Link to={ '/createItem' }>
+                                    <Link to={ '/create-item'} onClick={()=>setIsMenu(false)}>
                                         <p className='px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base'>
                                             New Item <MdAdd/>
                                         </p>
@@ -145,19 +145,19 @@ function Header ( props ) {
                                 <ul
                                     className='flex flex-col'>
                                     <li className='text-base text-textColor hover:text-headingColor duration-100 hover:bg-slate-100
-                    transition-all ease-in-out cursor-pointer px-4 py-2'>
+                    transition-all ease-in-out cursor-pointer px-4 py-2'  onClick={()=>setIsMenu(false)}>
                                         Home
                                     </li>
                                     <li className='text-base text-textColor hover:text-headingColor hover:bg-slate-100 duration-100
-                    transition-all ease-in-out cursor-pointer px-4 py-2'>
+                    transition-all ease-in-out cursor-pointer px-4 py-2' onClick={()=>setIsMenu(false)}>
                                         Menu
                                     </li>
                                     <li className='text-base text-textColor hover:text-headingColor duration-100 hover:bg-slate-100
-                    transition-all ease-in-out cursor-pointer px-4 py-2'>
+                    transition-all ease-in-out cursor-pointer px-4 py-2' onClick={()=>setIsMenu(false)}>
                                         About Us
                                     </li>
                                     <li className='text-base text-textColor hover:text-headingColor  duration-100 hover:bg-slate-100
-                    transition-all ease-in-out cursor-pointer px-4 py-2'>
+                    transition-all ease-in-out cursor-pointer px-4 py-2' onClick={()=>setIsMenu(false)}>
                                         Contact Us
                                     </li>
                                 </ul>
