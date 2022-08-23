@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Foodie Poodie
+## [Live Demo](https://foodie-poodie.web.app/)
+A React Js with firebase and tailwind based front end application
+Mostly Concentrated on UI and state managment with Context Api
+### ![Foodie Poodie](https://i.ibb.co/cJYcNn8/foodie-poodie-home-page.png)
+### ![Slider X-axis fruit Section](https://i.ibb.co/zs96T29/foodie-poodie-fruit-sectino.png)
+## Description
+A Food Ordering website not fully operational but most of the focus was on front end using tailwind and mangaging state with context Api.
+The Technologies which we uses for the project:
+#### `React`
+#### `FireBase`
+#### `Framer motion for animations`
+#### `Context Api`
+#### `Tailwind For Styling`
+Advanced packages like:
+#### `Firebase pop up login`
+# `Create Item By Admin(By default a specified email)`
+Admin can add items with their picture, title, category and other details.
+![Create Item Page](https://i.ibb.co/Kz9nbyM/create-Item-foodie-poodie.png)
+# `Created Item`
+Once the item will be created the user can see it in it's menu with real time rendering.
+![Item Created](https://i.ibb.co/TR2v2V2/item-added-foodie-poodie.png)
+# `Menu`
+Menu with attractive UI and filtering based on user Selection
+![Menu](https://i.ibb.co/bQsmK9p/foodie-poodie-menu.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# `Fruit Section`
+Fruit section with scroll on x-axis and also with hover animation and attractive UI
+![Fruit Section](https://i.ibb.co/hsQYJdQ/foodie-poodie-fruit-sectino.png)
 
-## Available Scripts
+# `Checkout Cart`
+When you click on the cart Icon the item will be added to cart as:
+![Checkout Cart Cart](https://i.ibb.co/pZHQgzJ/foodie-poodie-cart.png)
 
-In the project directory, you can run:
+### `npm i`
+First, run this command
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After this,
+## And then in server, run `npm start`
+## Feel Free to contribute and use it in your projects
