@@ -1,12 +1,24 @@
-import React , { useEffect , useState } from 'react';
-import { motion }                       from "framer-motion";
+import React , { useEffect , useState }  from 'react';
+import { motion }                        from "framer-motion";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import RowContainer                      from "./RowContainer";
 import { useStateValue }                 from "../../context/StateProvider";
+import { getAllFoodItems }               from "../../util/firebaseFunctions";
+import { actionType }                    from "../../context/reducer";
 function FruitSection ( props ) {
     const [scrollValue, setScrollValue] = useState(0);
     const [{foodItems},dispatch] = useStateValue();
-
+    const fetchData = async () => {
+        await getAllFoodItems().then(items => {
+            dispatch({
+                         type: actionType.SET_FOOD_ITEMS,
+                         foodItems : items
+                     });
+        })
+    }
+    useEffect(() => {
+        fetchData();
+    }, []);
     useEffect ( () =>  {
 
     } , [ scrollValue ] );
