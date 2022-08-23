@@ -1,10 +1,11 @@
-import React from 'react';
+import React           from 'react';
+import CreateContainer from "../shared/components/CreateContainer";
 
 function CreateItem ( props ) {
     return (
-        <div>
-            Item is going to create here!
-        </div>
+        <>
+            <CreateContainer/>
+        </>
     );
 }
 
